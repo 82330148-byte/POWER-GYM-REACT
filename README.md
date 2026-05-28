@@ -34,10 +34,10 @@ npm run dev
 
 ### About Page
 ![About Page](public/screenshots/about1.png)
-(public/screenshots/about2.png)
+ ![About Page2](public/screenshots/about2.png)
 ### Plans Page
 ![Plans Page](public/screenshots/plan.png)
-(public/screenshots/plan2.png)
+ [Plans Page2](public/screenshots/plan2.png)
 ### Join Page
 ![Join Page](public/screenshots/join.png)
 
