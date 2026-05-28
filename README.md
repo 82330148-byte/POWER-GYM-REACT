@@ -27,3 +27,4 @@ The website helps users explore gym plans, view equipment, join the gym, contact
 ```bash
 npm install
 npm run dev
+#

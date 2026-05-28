@@ -1,4 +1,4 @@
-import "./Equipment.css";
+import "./equipment.css";
 
 function Equipment() {
   const equipmentImages = [

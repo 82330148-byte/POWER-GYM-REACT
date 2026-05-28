@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 
 import Home from "./pages/Home";
 import Join from "./pages/join";
+
 import About from "./pages/About";
 import Plans from "./pages/plans";
 import Course from "./pages/Course";

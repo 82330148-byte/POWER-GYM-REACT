@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Join.css";
+import "./join.css";
 
 function Join() {
   const [name, setName] = useState("");
