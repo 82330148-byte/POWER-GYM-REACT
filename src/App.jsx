@@ -2,13 +2,13 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 
 import Home from "./pages/Home";
-import Join from "./pages/Join";
+import Join from "./pages/join";
 import About from "./pages/About";
-import Plans from "./pages/Plans";
+import Plans from "./pages/plans";
 import Course from "./pages/Course";
 import Contact from "./pages/Contact";
 import Calculator from "./pages/Calculator";
-import Equipment from "./pages/Equipment";
+import Equipment from "./pages/equipment";
 
 function App() {
   return (
