@@ -1,0 +1,71 @@
+.about-page {
+  background-color: #111;
+  color: white;
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+
+.section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 32px;
+  color: #ff3c3c;
+  margin-bottom: 20px;
+}
+
+.text {
+  font-size: 18px;
+  color: #ddd;
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+footer {
+  background-color: #000;
+  text-align: center;
+  padding: 20px;
+  color: #aaa;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 26px;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+
+  nav {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+}

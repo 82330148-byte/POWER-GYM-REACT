@@ -1,0 +1,150 @@
+.btn {
+  display: inline-block;
+  background-color: #ff3c3c;
+  color: white;
+  padding: 14px 30px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 18px;
+  transition: 0.3s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #ff3c3c;
+}
+
+.home {
+  height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1400&q=80") center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+.home-text h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #ff3c3c;
+}
+
+.home-text p {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.features {
+  padding: 60px 40px;
+  text-align: center;
+  background-color: #111;
+  color: white;
+}
+
+.features h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #ff3c3c;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.box {
+  background-color: #1c1c1c;
+  padding: 30px;
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255, 60, 60, 0.2);
+  transition: transform 0.3s;
+}
+
+.box:hover {
+  transform: translateY(-8px);
+}
+
+.box h3 {
+  color: #ff3c3c;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.box p {
+  font-size: 16px;
+  color: #ddd;
+}
+
+.about-home {
+  padding: 60px 40px;
+  text-align: center;
+  background-color: #181818;
+  color: white;
+}
+
+.about-home h2 {
+  font-size: 36px;
+  color: #ff3c3c;
+  margin-bottom: 20px;
+}
+
+.about-home p {
+  max-width: 800px;
+  margin: auto;
+  font-size: 18px;
+  color: #ddd;
+}
+
+footer {
+  background-color: #000;
+  text-align: center;
+  padding: 20px;
+  color: #aaa;
+}
+
+@media (max-width: 768px) {
+  .home-text h2 {
+    font-size: 36px;
+  }
+
+  .home-text p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 768px) {
+
+  nav {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+}
