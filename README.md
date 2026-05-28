@@ -1,25 +1,29 @@
 # Power Gym React Project
 
-This project was converted from plain HTML/CSS/JS into React with Vite.
+## Project Description
+This project is a responsive fitness web application built using ReactJS and Vite. It includes multiple pages such as Home, About, Plans, Join, Calculator, Contact, Course, and Equipment.
 
-## How to run
+The website helps users explore gym plans, view equipment, join the gym, contact the team, and use a gym calculator.
 
+## Pages
+- Home
+- About
+- Plans
+- Join
+- Calculator
+- Contact
+- Course
+- Equipment
+
+## Technologies Used
+- ReactJS
+- Vite
+- CSS
+- React Router
+- Git
+- GitHub
+
+## Setup Instructions
 ```bash
 npm install
 npm run dev
-```
-
-## Pages
-
-- `/` Home
-- `/about` About
-- `/plans` Plans
-- `/course` Online Course
-- `/contact` Contact
-- `/calculator` Gym Calculator
-- `/join` Join/Register
-- `/equipment` Gym Equipment
-
-## Notes
-
-The uploaded equipment images were added to `public/assets/` and linked inside the Equipment page.
